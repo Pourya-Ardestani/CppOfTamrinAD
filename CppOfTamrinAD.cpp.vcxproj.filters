@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="CppOfTamrinAD.cpp.cpp">
+    <ClCompile Include="WatchingMachine.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
