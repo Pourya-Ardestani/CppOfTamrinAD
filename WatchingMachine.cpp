@@ -4,6 +4,7 @@
 #include "Engine.h"
 #include "Timer.h"
 
+
 class WatchingMatchine: public Machine
 {
 private:
@@ -22,14 +23,7 @@ public:
 	void main();
 };
 
-void WatchingMatchine:: wash() 
-{
 
-}       
-void WatchingMatchine:: rinse()
-{
-
-}
 void WatchingMatchine:: spin()
 {
 	//turn on
@@ -55,22 +49,8 @@ void WatchingMatchine:: spin()
 	engine.turnOf();
 
 }
-void WatchingMatchine::fill()
-{
 
-}
-void WatchingMatchine:: empty()
-{
 
-}
-void WatchingMatchine:: standardWash()
-{
-
-}
-void WatchingMatchine:: twiceRinse()
-{
-
-}
 void WatchingMatchine:: main()
 {
 	WashOption washOption;
@@ -84,6 +64,4 @@ void WatchingMatchine:: main()
 		case 3:
 			this->spin();
 	}
-}
-
 }
