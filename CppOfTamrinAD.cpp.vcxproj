@@ -133,7 +133,7 @@
     <ClCompile Include="Sensor.cpp" />
     <ClCompile Include="TempSensor.cpp" />
     <ClCompile Include="Timer.cpp" />
-    <ClCompile Include="WashSelection.cpp" />
+    <ClCompile Include="WashOption.cpp" />
     <ClCompile Include="WatchingMachine.cpp" />
     <ClCompile Include="WaterSensor.cpp" />
   </ItemGroup>

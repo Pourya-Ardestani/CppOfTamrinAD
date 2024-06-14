@@ -39,7 +39,7 @@
     <ClCompile Include="Timer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="WashSelection.cpp">
+    <ClCompile Include="WashOption.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

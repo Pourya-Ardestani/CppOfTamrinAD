@@ -1,4 +1,6 @@
 #pragma once
+#include "WashSelection.h"
+#include <iostream>
 class WashOption
 {
 private:
@@ -7,9 +9,3 @@ public:
 	int getWashSelection();
 };
 
-int WashOption::getWashSelection() 
-{
-	std::cout << "Enter selection: ";
-	std::cin >> washSelection;
-	return washSelection;
-}
