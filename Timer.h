@@ -5,7 +5,7 @@ private:
 	int value;
 	int duration;
 public:
-	void serDuration();/////(+int n)
+	void setDuration(int );/////(+int n)
 	void start();
 	time count();
 	time getValue();
