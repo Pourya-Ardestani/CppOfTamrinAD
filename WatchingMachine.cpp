@@ -1,13 +1,13 @@
 ﻿#include <iostream>
+#include "Machine.h"
 
-
-class WatchingMatchine
+class WatchingMatchine: public Machine
 {
 private:
 	int washTime;
 	int rinseTime;
 	int spinTime;
-public:
+//methodes
 	void wash();
 	void rinse();
 	void spin();
