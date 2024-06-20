@@ -5,7 +5,7 @@
 #include "Timer.h"
 
 
-class WatchingMatchine: public Machine
+class WashingMatchine: public Machine
 {
 private:
 	int washTime;
@@ -24,7 +24,7 @@ public:
 };
 
 
-void WatchingMatchine:: spin()
+void WashingMatchine:: spin()
 {
 	//turn on
 	Engine engine;
@@ -51,7 +51,7 @@ void WatchingMatchine:: spin()
 }
 
 
-void WatchingMatchine:: main()
+void WashingMatchine:: main()
 {
 	WashOption washOption;
 	int option = washOption.getWashSelection();
