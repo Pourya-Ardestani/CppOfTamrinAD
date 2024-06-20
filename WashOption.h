@@ -1,5 +1,5 @@
 #pragma once
-#include "WashSelection.h"
+#include "WashOption.h"
 #include <iostream>
 class WashOption
 {
